@@ -1,0 +1,7 @@
+.img:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(19, 244, 15, 0.9), 20, 0, 0, 0);
+}
+
+.without-background {
+    -fx-background-color: transparent;
+}

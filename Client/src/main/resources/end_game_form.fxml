@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<Pane prefHeight="538.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.d3lph1.bridge.client.forms.EndGameController">
+   <children>
+      <Label fx:id="firstPlayerName" layoutX="277.0" layoutY="14.0" text="firstPlayerName" />
+      <Label fx:id="secondPlayerName" layoutX="277.0" layoutY="276.0" text="secondPlayerName" />
+      <ScrollPane layoutX="6.0" layoutY="38.0" prefHeight="216.0" prefWidth="643.0" styleClass="without-background" vbarPolicy="NEVER">
+         <content>
+            <AnchorPane fx:id="firstPlayerPane" prefHeight="200.0" prefWidth="200.0" />
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="6.0" layoutY="300.0" prefHeight="231.0" prefWidth="643.0" styleClass="without-background" vbarPolicy="NEVER">
+         <content>
+            <AnchorPane fx:id="secondPlayerPane" prefHeight="226.0" prefWidth="200.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</Pane>
